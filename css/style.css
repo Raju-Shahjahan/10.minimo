@@ -1,0 +1,319 @@
+/* common css start */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+
+
+
+/* common css end */
+
+/* header start */
+.hsec {
+    /* border: 1px solid red; */
+    padding: 30px 0;
+}
+
+.wrapper {
+    overflow: hidden;
+    width: 85%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.logo {
+    float: left;
+    width: 10%;
+    /* border: 1px solid blue; */
+    margin-top: 13px;
+}
+.logo a {
+    
+}
+.logo img {
+    width: 100%;
+    margin-top: 29px;
+}
+
+.menu {
+    float: right;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+.menu ul {
+    float: right;
+    margin-top: 42px;
+}
+.menu ul li {
+    margin-left: 162px;
+    display: inline-block;
+    list-style: none;
+    
+}
+.menu ul li a{
+    color: #626262;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    text-decoration: none;
+    
+}
+.menu ul li a:hover{}
+.menu ul li:last-child {
+    margin-right: 0px;
+}
+/* header end */
+
+/* banner section start */
+.banner{
+    padding: 70px 0;
+}
+.bg-img{
+   
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 394px 0px;
+
+}
+
+/* banner section end */
+
+/* comment start */
+
+.comment{
+    padding: 70px 0;
+}
+.wrapper2{
+    width: 70%;
+    margin: 0 auto;
+    /* border: 1px solid violet; */
+}
+.c-content{}
+.c-content h5 {
+    font-size: 14px;
+    color: #b4ad9e;
+    font-weight: 300;
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+}
+.c-content h1 {
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+    font-family: "Playfair Display";
+}
+.c-content p{
+    font-size: 14px;
+line-height: 24px;
+color: #626262;
+font-weight: 400;
+font-family: "Playfair Display";
+}
+
+/* comment end */
+
+/* blog section start */
+.blogsec {
+    padding: 70px 0 ;
+}
+
+
+.wrapper2 {
+}
+
+.blogs {
+    overflow: hidden;
+}
+.single-blog2{
+    float: right;
+    width: 45%;
+}
+
+.single-blog {
+    float: left;
+    width: 50%;
+    margin-right: 20px;
+    margin-bottom: 108px;
+}
+.single-blog img{}
+.blog_content{
+    width: 470px;
+}
+.single-blog:nth-child(2){
+    margin-right: 0px;
+}
+.blog_content h5{
+    font-size: 14px;
+    color: #b4ad9e;
+    font-weight: 300;
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+}
+.blog_content h1{
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+    font-family: "Playfair Display";
+}
+.blog_content p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #626262;
+    font-weight: 400;
+    font-family: "Playfair Display";
+}
+
+
+.blog-btn{
+    text-align: center;
+}
+.blog-btn a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 24px;
+    color: #626262;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    /* border: 1px solid black; */
+    padding: 11px 19px;
+    border: 1px solid #626262;
+    transition: .6s;
+}
+
+.blog-btn a:hover {
+    background-color: #626262;
+    color: white;
+}
+
+/* blog section end */
+
+/* newsletter section start */
+
+.newsletter {
+    background-color: #f0f0f0;
+    padding: 80px 0;
+}
+
+.n_content {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.n_content h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    text-align: center;
+    margin-bottom: 65px;
+}
+.n_form{
+    position: relative;
+}
+.n_form input{
+    background-color: #f0f0f0;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 425px;
+    height: 40px;
+}
+
+.n_btn{}
+.n_btn :hover a{
+
+}
+.n_btn a img{
+    position: absolute;
+    top: 17px;
+    left: 482px;
+}
+
+
+/* newsletter section end */
+
+
+/* footer start */
+
+.footer {
+    background-color: #f0f0f0;
+}
+
+
+
+.footer_contents {
+    overflow: hidden;
+}
+
+.f_content {
+    float: left;
+    width: 45%;
+}
+.f_content ul{
+    margin-top: 24px;
+}
+.f_content ul li{
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.f_content ul li:hover a{
+    color: #626262;
+}
+
+.f_content ul li a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.f_social {
+    float: right;
+    width: 14%;
+    margin-top: 24px;
+}
+
+.f_social p{
+    display: inline;
+    margin-right: 30px;
+}
+
+.icon {
+    display: inline;
+    float: right;
+
+}
+.icon :hover {
+    color: #383636;;
+
+}
+
+.fab.fa-facebook-f {
+    margin-right: 15px;
+    color: #626262;
+}
+.fab.fa-facebook-f:hover{
+    color: rgb(34, 20, 231);
+}
+
+.fab.fa-twitter {
+    margin-right: 15px;
+    color: #626262;
+}
+.fab.fa-twitter:hover{
+    color: turquoise;
+}
+
+.fab.fa-instagram {
+    color: #626262;
+}
+.fab.fa-instagram:hover{
+    color: tomato;
+}
+
+/* footer end */
